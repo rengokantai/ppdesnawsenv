@@ -9,3 +9,8 @@ Customer gateway -> AWS direct connect->VPN gateway
 - between two VPCs in same region
 - could be different accounts
 - no sharing of gateways or peered connections
+
+###4 Securing Your VPC
+####Bastion host
+protocol source : inbound=public subnet 
+private source: sg of bastion,port 22
