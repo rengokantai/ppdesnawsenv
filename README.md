@@ -14,3 +14,14 @@ Customer gateway -> AWS direct connect->VPN gateway
 ####Bastion host
 protocol source : inbound=public subnet 
 private source: sg of bastion,port 22
+
+####09:00
+```
+ssh-add -K keyname
+ssh -A user@ip
+```
+
+single command
+```
+ssh -A -i key user@ip
+```
