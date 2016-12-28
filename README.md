@@ -1,4 +1,10 @@
 # ppdesnawsenv
+##4. Networking on AWS
+###1 Classless Inter-Domain Routing
+
+
+
+
 ##5. Creating a VPC
 ###3 Connecting to a VPC
 Customer gateway -> VPN connection->VPN gateway  
@@ -25,3 +31,8 @@ single command
 ```
 ssh -A -i key user@ip
 ```
+
+###5 Highly Available Architectures
+####09:24
+create a sg for load balancer,
+source=sg-123456
